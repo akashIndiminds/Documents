@@ -1,0 +1,2 @@
+//To Publish your code with config file
+pyinstaller --add-data "config.json;." app.py

@@ -1,0 +1,20 @@
+//How to add your existing code in git repository
+
+1. create repository in git
+2. clone that empty repository into your drive
+3. add all your folder into cloned folder
+4. commit and push your code
+	4.1 -- by open your folder into vs code and use vs code ui for git pull and push
+	4.2 -- using git commit and push command
+
+
+//How to login using git bash/cmd/powershall terminal
+
+# Global Configuration
+	git config --global user.name "John Doe"
+	git config --global user.email "johndoe@example.com"
+
+# Local Configuration for a specific repository
+	cd /path/to/your/repo
+	git config user.name "Jane Smith"
+	git config user.email "janesmith@example.com"

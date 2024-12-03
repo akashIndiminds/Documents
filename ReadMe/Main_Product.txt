@@ -1,0 +1,3 @@
+
+// Query to Find ExchangeSegmentId and SegmentId
+Select (Select Ltrim(RTrim(Cmp_Name))+' ['+Cmp_InternalID+']' from Tbl_Master_Company Where Cmp_InternalID=Exch_CompID) as Company,Exch_CompID,(Select ExchangeSegment_ID From Master_ExchangeSegments Where ExchangeSegment_ExchangeID=Exchange_ID and ExchangeSegment_Code=Exch_SegmentID) as [ExchangeSegmentID],Exch_InternalID as [UserSegID],Exh_ShortName,Exch_SegmentID from (Select Exch_CompID,Exch_InternalID,Exh_ShortName,Exch_SegmentID from Tbl_Master_Exchange,Tbl_Master_CompanyExchange Where Exh_CntId=Exch_ExchID) as T1,Master_Exchange Where Exchange_ShortName=Exh_ShortName

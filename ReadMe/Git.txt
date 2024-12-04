@@ -1,3 +1,6 @@
+// Create Branch in Git////
+git checkout -b feature/dummybranch
+
 //////////////////////How to add your existing code in git repository//////////////////////////////////////////
 
 1. create repository in git

@@ -1,5 +1,6 @@
 // Create Branch in Git////
-git checkout -b feature/dummybranch
+git checkout -b feature/dummybranch --- Locally create branch
+git push origin -u feature/dummybranch -- push to the git repository on server
 
 //////////////////////How to add your existing code in git repository//////////////////////////////////////////
 

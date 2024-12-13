@@ -30,3 +30,6 @@ git push origin -u feature/dummybranch -- push to the git repository on server
 2. To Commit with Message : 	git commit -m "Any msg"
 3. To push :			git push
 
+///// To revert your changes - 
+1. git reset --hard HEAD~1
+

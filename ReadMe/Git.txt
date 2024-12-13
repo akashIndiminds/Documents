@@ -1,4 +1,4 @@
-// Create Branch in Git////
+/// Create Branch in Git////
 git checkout -b feature/dummybranch --- Locally create branch
 git push origin -u feature/dummybranch -- push to the git repository on server
 

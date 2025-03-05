@@ -1,0 +1,4 @@
+1. To Debug node app run your code like node --inspect server.js (or your js file)
+2  Now You can use browser utility like edge://inspect or chrome://inspect
+3. click on inspect link 
+and you go with postman like clients to call your end points.
